@@ -1,0 +1,45 @@
+.login-container
+  padding: 24px
+
+.login-lead
+  min-height: 100vh
+  height: 100%
+  width: 100%
+  position: relative
+
+  .background
+    position: absolute
+    left: 0
+    top: 0
+    right: 0
+    bottom: 0
+    overflow: hidden
+    &::before
+      content: ' '
+      background-image: url("../../assets/images/background-login.jpg")
+      background-size: 100% 100%
+      background-repeat: no-repeat
+      background-position: center
+      position: absolute
+      left: -50%
+      top: -80%
+      right: 0
+      bottom: 0
+      z-index: -1
+      width: 150vw
+      height: 300vh
+      animation: space 180s infinite linear
+
+  .lead
+    color: white
+    font-size: 3rem
+    font-weight: bold
+    padding-top: 25%
+    padding-left: 50px
+    padding-right: 50px
+
+    @keyframes space
+      0%
+        transform: rotate(0deg)
+      100%
+        transform: rotate(360deg)

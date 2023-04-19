@@ -1,0 +1,25 @@
+package os
+
+const ASTRO_KEY_PATH = "/etc/astro/key.bin"
+
+const ASTRO_DATA = "/etc/astro/data/"
+const ASTRO_OVPN_PATH = "/etc/astro/ovpn/"
+const ASTRO_ETC_PATH = "/etc/astro/"
+
+const ASTRO_VPN_JSON_PATH = ASTRO_DATA + "vpn.json"
+const ASTRO_VPN_PKI_PATH = "/etc/openvpn/easy-rsa/pki/index.txt"
+const ASTRO_VPN_EASYRSA_PATH = "/etc/openvpn/easy-rsa/"
+const ASTRO_VPN_EASYRSA_BIN_PATH = "/etc/openvpn/easy-rsa/easyrsa"
+const ASTRO_VPN_SERVER_CONF_PATH = "/etc/openvpn/server.conf"
+const ASTRO_VPN_CLIENT_TEMPLATE_PATH = "/etc/openvpn/client-template.txt"
+const ASTRO_VPN_EASYRSA_CA_PATH = "/etc/openvpn/easy-rsa/pki/ca.crt"
+const ASTRO_VPN_EASYRSA_CRT_PATH = "/etc/openvpn/easy-rsa/pki/issued/%s.crt"
+const ASTRO_VPN_EASYRSA_KEY_PATH = "/etc/openvpn/easy-rsa/pki/private/%s.key"
+const ASTRO_VPN_EASYRSA_CRYPT_PATH = "/etc/openvpn/tls-crypt.key"
+const ASTRO_VPN_EASYRSA_AUTH_PATH = "/etc/openvpn/tls-auth.key"
+const ASTRO_VPN_EASYRSA_CRL_PATH = "/etc/openvpn/easy-rsa/pki/crl.pem"
+const ASTRO_VPN_CRL_PATH = "/etc/openvpn/crl.pem"
+const ASTRO_VPN_IPP = "/etc/openvpn/ipp.txt"
+const ASTRO_VPN_EASYRSA_REVOKED_CRT_PATH = "/etc/openvpn/easy-rsa/pki/revoked/certs_by_serial/%s.crt"
+const ASTRO_VPN_EASYRSA_REVOKED_KEY_PATH = "/etc/openvpn/easy-rsa/pki/revoked/private_by_serial/%s.key"
+const ASTRO_VPN_EASYRSA_REVOKED_REQ_PATH = "/etc/openvpn/easy-rsa/pki/revoked/reqs_by_serial/%s.req"
